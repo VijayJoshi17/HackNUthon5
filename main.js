@@ -164,7 +164,7 @@ function displayQuestion() {
     if (currentQuestionIndex < questions.length - 1) {
       idleTimeout = setTimeout(function() {
         playIdleVideo();
-      }, 25000); // Adjust the delay as needed (in milliseconds)
+      }, 23000); // Adjust the delay as needed (in milliseconds)
     }
 
     // Append video container to the conversation
